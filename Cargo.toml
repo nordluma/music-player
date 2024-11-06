@@ -7,3 +7,4 @@ edition = "2021"
 axum = "0.7.7"
 socketioxide = "0.15.1"
 tokio = { version = "1.41.0", features = ["rt-multi-thread", "macros"] }
+tower-http = { version = "0.6.1", features = ["fs"] }
