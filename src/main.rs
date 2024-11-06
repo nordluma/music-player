@@ -18,5 +18,6 @@ async fn main() -> std::io::Result<()> {
 }
 
 async fn index() -> impl IntoResponse {
-    (StatusCode::OK, Html("Hello"))
+    (StatusCode::OK, Html(include_str!("../public/index.html")))
+}
 }
