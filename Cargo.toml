@@ -4,7 +4,7 @@ version = "0.1.0"
 edition = "2021"
 
 [dependencies]
-axum = { version = "0.7.7", features = ["multipart"] }
+axum = { version = "0.7.7", features = ["multipart", "ws"] }
 ndarray = "0.16.1"
 socketioxide = "0.15.1"
 symphonia = "0.5.4"
